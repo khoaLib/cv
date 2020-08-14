@@ -1,0 +1,160 @@
+/* body{
+  background-color: orange;
+} */
+/* Google font to find fonts */
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  font-size: 120%;
+}
+
+/** r before em helps to set the size of the specific tag ignoring the parent
+setting*/
+h1 {
+  margin: 50px auto 0 auto;
+  font-size: 5.625rem;
+  color: #66BFBF;
+}
+
+h2 {
+  color: #66BFBF;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  /* font-family: 'Montserrat', sans-serif; */
+  color: #11999E;
+}
+
+hr {
+  border-style: none;
+  width: 50px;
+  border-width: 5px;
+  border-top-style: dotted;
+  color: #EAF6F6;
+  margin: 100px auto;
+}
+
+p {
+  line-height: 2;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* div {
+  background-color: #cffffe;
+} */
+/**********************Class selectors******************/
+.topcontainer {
+  background-color: #cffffe;
+  position: relative;
+  padding-top: 100px;
+  line-height: 2;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+.copyrightline {
+  color: #eaf6f6;
+  font-size: 20px;
+  padding: 20px 0;
+}
+
+.bottomcloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.topcloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bellowheader {
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.computer {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.chilly {
+  width: 25%;
+  float: right;
+  margin-right: 30px;
+}
+
+.intr {
+  width: 30%;
+  margin: auto;
+}
+
+.contactMess {
+  width: 30%;
+  margin: 40px auto 60px;
+}
+
+/* .contact-me{
+  margin-top: 50px;
+} */
+.BUTTON_RMS {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.BUTTON_RMS:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
